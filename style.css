@@ -1,9 +1,9 @@
 
 
-* {
+/* * {
     margin: 10px;
     padding:0;
-  }
+  } */
 
 body {
     background-color: white;
@@ -11,18 +11,22 @@ body {
     border:2px solid;
     width: 1163px;
     align-self: center;
+    margin: auto;
   }
 
 /* BACKGROUND IMAGE *//* BACKGROUND IMAGE *//* BACKGROUND IMAGE *//* BACKGROUND IMAGE */
-
+.logo{
+    position: absolute;
+    top: 20px;
+    right:1070px;
+}
 .home-image img {
     width:1130px;
     height:350px;
     border-radius: 5px;
     margin-left:4px;
-
- 
 } 
+
 .content1 {
     text-align: center;
     margin: -190px 0 0 0;
@@ -53,7 +57,7 @@ body {
 }
 .train-img img {
     padding: 30px 7px 30px 7px;
-    border-radius: 50px;
+    border-radius: 3px;
 
 }
 .train-content {
